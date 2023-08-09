@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geo clone by minhaj</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .h-img{
+        background-repeat:no-repeat ;
+        background-size: cover;
+        height: 90vh;
+        width: 100vw;
+        position: relative;
+        z-index: -1;
+    }
+    .navbar{
+        position: absolute;
+        display: flex;
+        height: 200px;
+        width: 100%;
+        justify-content: space-between;
+        padding-top: 10px;
+    }
+    .jobs{
+        border: none;
+        background: transparent;
+    }
+    .discord{
+        border: none;
+        background: transparent;
+    }
+    .launch{
+        background-color:rgb(49, 49, 216);
+        border-radius: 5px;
+        color: white;
+        border: none;
+        padding: 10px;
+    }
+    .nav-btns>*{
+        cursor: pointer;
+        font-size: 1rem;
+        margin:0px 20px ;
+    }
+    .n-img>img{
+        filter: drop-shadow(0px 0px 2px blue);
+        cursor: pointer;
+        margin-left: 10px;
+    }
+.center-logo{
+    position: absolute;
+/* background-color: red; */
+top: 31%;
+left: 713px;
+background-color: white;
+border: none;
+border-radius: 20%;
+}
+.center-logo>img{
+filter: drop-shadow(0px 0px 2px blue);
+cursor: pointer;
+}
+.heading{
+    position: absolute;
+    left: 23%;
+top: 55%;
+    background-color: white;
+    width: 800px;
+    height: 198px;
+    text-align: center;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.one{
+    background: -webkit-linear-gradient(rgb(188, 12, 241), rgb(212, 4, 4));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+body{
+    overflow-x: hidden;
+}
+.s-two{
+    background: -webkit-linear-gradient(rgb(188, 12, 241), rgb(212, 4, 4));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.s-three{
+    color: gray;
+}
+.s-container{
+    height: 400px;
+    width: 800px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+border-radius: 20px;
+box-shadow: 0px 0px 50px black;
+border: none;
+
+}
+.s-container>*{
+    text-align: center;
+}
+.box-container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+.footer{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.f-text{
+    text-align: center;
+}
+.card {
+  position: relative;
+  width: 220px;
+  height: 320px;
+  background: mediumturquoise;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.card::before,
+.card::after {
+  position: absolute;
+  content: "";
+  width: 20%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: white;
+  transition: all 0.5s;
+}
+
+.card::before {
+  top: 0;
+  right: 0;
+  border-radius: 0 15px 0 100%;
+}
+
+.card::after {
+  bottom: 0;
+  left: 0;
+  border-radius: 0 100%  0 15px;
+}
+
+.card:hover::before,
+.card:hover:after {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  transition: all 0.5s;
+}
+
+.card:hover:after {
+  content: "HELLO";
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.cards>*{
+    margin: 0px 100px;
+    box-shadow: 0px 0px 30px black;
+}
+.l-footer{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.l-footer>*{
+    margin: 20px 0px;
+}
+input{background-color: #80808036;
+padding: 17px;
+border-radius: 9px;}
+</style>
+
+
+<body>
+    <div class="h-container">
+        <div class="navbar">
+        <div class="n-img">    <img src="logo (2).png" width="60px" alt="min-logo"> </div> 
+            <div class="nav-btns"><button class="jobs">Jobs</button> 
+            <button class="discord">Discord</button>
+            <button class="launch">Launch GEO Genesis </button></div>
+        </div>
+        <div class="center-logo">
+
+            <img src="logo (2).png" width="100px" alt="min-logo">
+        </div>
+        <div class="heading">
+            <h1 class="one">CLONE BY MINHAJ</h1>
+            <h1>AS A ASSIGNMENT</h1>
+            <h3>Bringing forward new ways to cooperate <br> and organize in the internet age</h3>
+            <button class="launch" style="margin-top: 5px; cursor: pointer;">Launch GEO Genesis </button>
+        </div>
+
+        <img class="h-img" src="knowledge-graph.png" alt="min-bg">
+    </div>
+<div class="box-container">
+<div class="s-container">
+
+<h1 class="s-one">What information can we trust?</h1>
+<h3 class="s-two">Can we trust the press? Governments? <br> Big tech companies?
+    Universities? <br> Random people on the internet? What happens <br> when these things become politicized?</h3>
+    <h4 class="s-three">
+        There must be a way to organize information in a decentralized way, allowing communities to create their own reputation and governance systems, so that we can come to consensus and see the sum total of all human knowledge.</h4>
+    </div>
+</div>
+<div class="footer">
+    <div class="f-text">
+        <h1>Together we can change how society is organized, put power into the hands of those who’ve earned it, and distribute resources and opportunity far and wide.</h1>
+    </div>
+    <div class="cards">
+
+        <div class="card">Hover For Info</div>
+        <div class="card">Hover For Info</div>
+        <div class="card">Hover For Info</div>
+
+    </div>
+
+</div>
+<div class="l-footer">
+<img src="logo (2).png" width="100px" alt="">
+<p style="font-size: 2rem;">Stay up to date</p>
+<input type="email" placeholder="Email...">
+<button class="launch" style="margin-top: 5px; cursor: pointer; padding: 17px; font-weight: bold;"> Subscribe to mailing list </button>
+<p>© 2023. GEO Browser, PB LLC. All rights reserved.</p>
+</div>
+</body>
+</html>
